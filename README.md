@@ -6,6 +6,7 @@ For use with vim 8 plus only as it works with the vim 8 package manager.
 
 ```
 mkdir ~/.vim/pack
+touch ~/.vimrc
 git clone git@github.com:kennylavender/vim-setup.git ~/.vim/pack/vim-setup
 ```
 
