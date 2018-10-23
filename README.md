@@ -13,4 +13,4 @@ npm install -g typescript
 
 That should be it.
 
-TypeScript is required for the ale plugin to do linting and other syntax based stuff.
+TypeScript is required globally for the ale plugin to do linting and other syntax based stuff.
