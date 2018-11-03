@@ -40,6 +40,8 @@ filetype indent on
 " Set to auto read when a file is changed from the outside
 set autoread
 
+let mapleader = ","
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -114,7 +116,7 @@ endif
 " Add a bit extra margin to the left
 set foldcolumn=1
 
-
+set mouse=a
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -296,3 +298,13 @@ set guioptions-=r
 set guioptions-=R
 set guioptions-=l
 set guioptions-=L
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => ALE
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" let g: ale_completion_enabled = 1
+"
+
+map <leader>h :ALEHover<cr>
+
